@@ -34,7 +34,7 @@ ul li:hover {
 ul li.checked {
   background: #276678;
   color: #fff;
-  text-decoration: line-through;
+  text-decoration:line-through;
 }
 
 ul li.checked::before {
@@ -48,6 +48,14 @@ ul li.checked::before {
   transform: rotate(45deg);
   height: 15px;
   width: 7px;
+}
+
+#counter
+{
+  background-color:#fff;
+  color:#f78501;
+  font-size:large;
+  font-weight: bold;
 }
 
 .close {
